@@ -61,7 +61,7 @@ body{
 }
 
 header{
-    background: beige;
+    background: black;
     height: 11.5vh;
     margin-bottom: 1vh;
 }
@@ -70,6 +70,7 @@ header h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     margin: .5% .5%;
+    color: white;
 }
 
 .navBarContainer{
@@ -83,8 +84,8 @@ header nav{
 
 header nav a{
     text-decoration:none;
-    color: #5ED3EB;
-    border: .1rem dotted black;
+    color: white;
+    border: .1rem dotted white;
     padding: .5rem;
 }
 
@@ -116,6 +117,7 @@ header nav a{
     margin-bottom: 5.25%;
     padding: .5rem;
     width: 20%;
+    background: white;
 }
 
 .projectSnapshots{
@@ -144,18 +146,20 @@ footer{
     height: 11.5vh;
     margin-top: 1vh;
     padding: 1%;
-    background: beige;
+    background: black;
 }
 
 footer h2{
     text-align: center;
     margin-bottom: 1%;
+    color: white;
 }
 
 footer button{
     padding: .5rem;
     width: 10%;
     margin: 0 auto 1% auto;
+    background: white;
 }
 
 footer form{
@@ -175,6 +179,7 @@ footer form{
     }
     header h1{
         text-align: center;
+        color: black;
     }
     
     header nav{
@@ -184,6 +189,8 @@ footer form{
     
     header nav a{
         text-align: center;
+        color: black;
+        border: .1rem dotted black;
     }
 
     .introContainer{
